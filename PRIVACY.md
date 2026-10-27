@@ -6,7 +6,7 @@ Stand: 27. Oktober 2026
 
 ## Welche Daten die App abruft
 
-Mit dem Scope `https://www.googleapis.com/auth/gmail.readonly` liest die App Mails, Konversationen, Anhänge und Labels. Über `userinfo.email` und `userinfo.profile` erhält sie die E-Mail-Adresse und den Namen des angemeldeten Kontos. Schreibzugriff fordert sie nicht an.
+Mit dem Scope `https://www.googleapis.com/auth/gmail.readonly` liest die App Mails, Konversationen, Anhänge und Labels. Mit `https://www.googleapis.com/auth/gmail.compose` legt sie auf Florians Anweisung Entwürfe an. Ein Sendebefehl ist in der lokalen Software abgeschaltet, Entwürfe verschickt Florian selbst. Über `userinfo.email` und `userinfo.profile` erhält sie die E-Mail-Adresse und den Namen des angemeldeten Kontos. Löschen, Verschieben oder Labels ändern kann die App nicht.
 
 ## Wo die Daten verarbeitet werden
 
